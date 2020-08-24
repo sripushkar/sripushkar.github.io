@@ -6,6 +6,14 @@ body {
 
 .title-header {
   font-size: 3em;
+  color: -webkit-linear-gradient(#eee, #333);
+}
+
+#bg{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("img/rainbow.svg"); 
 }
 
 /* #wrapper{
