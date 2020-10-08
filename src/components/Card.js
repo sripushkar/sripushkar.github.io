@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import Social from "./Social"
+import "./float.css"
 
 export default class Card extends Component {
     render() {
@@ -7,7 +9,7 @@ export default class Card extends Component {
         }
           
         return (    
-                <div className='container has-text-centered'> 
+                <div className='container has-text-centered float'> 
                     <div className='columns is-mobile is-centered'> 
                     <div className='column is-5'> 
                         <div className="card"> 
@@ -18,7 +20,10 @@ export default class Card extends Component {
                 
                             <p className='subtitle is-centered'> 
                                 Freelance Developer | Software Programmer | Leader
-                            </p> 
+                            </p>
+                            <p className='subtitle is-centered'>
+                                <Social/>
+                            </p>
                 
                         </div> 
                         </div> 
