@@ -122,10 +122,13 @@ a:hover, a:active {
     padding: 2% 2%;
     overflow: hidden;
     transform: translatey(0px);
+<<<<<<< HEAD
     
 }
 
 .card-float {
+=======
+>>>>>>> 4f37f7dba0da972afdfe819dbc9d33c8516a95ca
     animation: float 6s ease-in-out infinite;
 }
 
@@ -142,5 +145,9 @@ a:hover, a:active {
 		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
 		transform: translatey(0px);
 	}
+<<<<<<< HEAD
 }
 
+=======
+}
+>>>>>>> 4f37f7dba0da972afdfe819dbc9d33c8516a95ca
