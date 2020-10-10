@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Sansita+Swashed&display=swap');
 
+header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 body {
     margin: 0%;
 }
@@ -35,6 +44,14 @@ a:link, a:visited {
 
 a:hover, a:active {
     color: #2F80ED
+}
+
+.header-title {
+    font-size: 3rem;
+    background: -webkit-linear-gradient(200deg, #ECE9E6, #FFFFFF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .title {
@@ -76,8 +93,8 @@ a:hover, a:active {
 }
 
 .card-element {
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .card {    
