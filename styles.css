@@ -111,3 +111,7 @@ a:hover, a:active {
 	}
 }
 
+.break {    
+    flex-basis: 100%;
+    height: 0;
+}

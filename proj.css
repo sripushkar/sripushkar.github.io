@@ -1,5 +1,15 @@
+.proj-content {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
 .proj-row{
     display: flex;
+    
     align-items: center;
     align-content: center;
     text-align: center;
@@ -7,8 +17,9 @@
 
 .proj-card {
     width: 100%;
-    height: auto;
+    
     max-width: 100%;
+    height: 50%;
     text-align: center;
     background-color: white;
     color: black;
@@ -42,6 +53,12 @@
     -webkit-text-fill-color: transparent;
 }
 
-.tech-list {
-    
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    background-image: url("");
+    background-repeat: repeat !important;
+    background-size: auto;
 }
