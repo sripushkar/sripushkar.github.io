@@ -1,15 +1,47 @@
+.proj-row{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
 .proj-card {
+    width: 100%;
+    height: auto;
     max-width: 100%;
     text-align: center;
     background-color: white;
     color: black;
-    border-radius: 15px;
-    padding: 2% 2%;
-    margin-left: 10%;
-    margin-right: 10%;
+    border-radius: 15px;    
     overflow: hidden;
 }
 
 .proj-col {
     flex: 33.33%;
+    margin-left: 5%; 
+    margin-right: 5%;
+}
+
+.proj-desc {
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.built-with {    
+    font-weight: bold;
+    text-align: left;
+    margin-left: 5%;
+    margin-top: -2%;
+    font-size: 1.5rem;
+    background: #C33764;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(200deg, #4e54c8, #8f94fb);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(200deg, #4e54c8, #8f94fb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.tech-list {
+    
 }
