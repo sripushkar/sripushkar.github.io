@@ -39,6 +39,37 @@ a:hover, a:active {
     margin-right: 2%;
 }
 
+.row{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.social-media-icon {
+    flex: 33.3%;
+}
+
+.center-icon {
+    margin-left: -25%;
+    margin-right: -25%;
+}
+
+.icons {
+    flex: 33.3%;
+}
+
+.fab {    
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0% 3% 3%;
+    border-radius: 100%;
+    background: #000000;
+    color: white;
+  }
 
 #particles-js {
     position: absolute;
