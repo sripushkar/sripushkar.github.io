@@ -1,8 +1,10 @@
+
 .proj-content {
     position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: row wrap;
     width: 100%;
     height: 100%;
 }
@@ -13,6 +15,8 @@
     align-items: center;
     align-content: center;
     text-align: center;
+    margin-bottom: 2.5%;
+    margin-top: 0%;
 }
 
 .proj-card {
@@ -51,14 +55,4 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-
-#particles-js {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: #000000;
-    background-image: url("");
-    background-repeat: repeat !important;
-    background-size: auto;
 }
