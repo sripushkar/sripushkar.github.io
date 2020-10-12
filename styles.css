@@ -18,7 +18,7 @@ h1,h2,h3,h4,h5,h6 {
     font-size: 2.5rem;
 }
 
-p, li {
+p, li, a {
     font-family: 'Roboto', sans-serif;
     color: #4a4a4a;
     font-size: 1.2rem;
@@ -77,7 +77,7 @@ a:hover, a:active {
     position: fixed;
     width: 100%;
     height: 100%;
-    background-color: #000000;
+    background-image: linear-gradient( 0deg, #855988, #6b4984, #483475, #2b2f77, #141852, #070b34);
 }
 
 .content {
@@ -127,4 +127,22 @@ a:hover, a:active {
 
 .break {    
     width: 100%;
+}
+
+.to-homepage {
+    margin-top: -10%;
+}
+
+.bg-link:link, .bg-link:visited {
+    background: -webkit-linear-gradient(200deg, #ECE9E6, #FFFFFF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bg-link:hover, .bg-link:active {    
+    background: #2F80ED;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }

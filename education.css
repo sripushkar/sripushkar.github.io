@@ -1,0 +1,20 @@
+.lambert {
+    background: -webkit-linear-gradient(200deg, #7d1628, #701524);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gsu {
+    background: -webkit-linear-gradient(200deg, #1c79d2, #0039a6);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gt {
+    background: -webkit-linear-gradient(200deg, #bbad76, #b3a269, #ac9a58);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
