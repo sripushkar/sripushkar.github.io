@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="styles.css" type="text/css">
     <link rel="stylesheet" href="social-icons.css" type="text/css">
     <script src="scripts.js"></script>
+    
     <link rel="icon" href="favicon.ico" type="image/x-icon"/>
-
+    
   </head>
   <body>
     <div id="particles-js"></div>
@@ -19,9 +20,15 @@
       <div class="now-playing">
         <div class="spotify-card">
           <h1 class="card-element title">Recent Music</h1>
-          <div class="row">
-            <img src="cover.jpeg" alt="" class="cover"/>
-          </div>
+          
+            <img src="" alt="" id="cover"/>
+            <div class="info">
+              <p id="track"></p>
+              <p id="artist"></p>
+              <p id="album"></p>
+              <a href="https://open.spotify.com/user/d5gp4yv18wunsf962m1gxcvhw?si=IgnvDP7ISVG4a46im27j8w" id="listen">Add me on Spotify!</a>
+            </div>
+          
         </div>
       </div>
       <div class="card card-float">
@@ -43,7 +50,8 @@
         </p>          
       </div>
     </div>
-
-
+    
   </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="spotify.js"></script>
 </html>
