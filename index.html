@@ -7,15 +7,30 @@
     <link rel="stylesheet" href="styles.css" type="text/css">
     <link rel="stylesheet" href="social-icons.css" type="text/css">
     <script src="scripts.js"></script>
+    
     <link rel="icon" href="favicon.ico" type="image/x-icon"/>
-
+    
   </head>
   <body>
     <div id="particles-js"></div>
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
     <script type="text/javascript" src="./App.js"></script>
-
+    
     <div class="content">
+      <div class="now-playing">
+        <div class="spotify-card">
+          <h1 class="card-element title">Recent Music</h1>
+          
+            <img src="" alt="" id="cover"/>
+            <div class="info">
+              <p id="track"></p>
+              <p id="artist"></p>
+              <p id="album"></p>
+              <a href="https://open.spotify.com/user/d5gp4yv18wunsf962m1gxcvhw?si=IgnvDP7ISVG4a46im27j8w" id="listen">Add me on Spotify!</a>
+            </div>
+          
+        </div>
+      </div>
       <div class="card card-float">
         <h1 class="card-element title">Sripushkar Julapally</h1>
         
@@ -25,7 +40,8 @@
           <div class="icons">         
             <a href="https://youtube.com/c/sripushkarjulapally" class="fab fa-youtube"></a>                    
             <a href="https://github.com/sripushkar" class="fab fa-github"></a>                    
-            <a href="https://www.linkedin.com/in/sripushkar-julapally/" class="fab fa-linkedin"></a>   
+            <a href="https://www.linkedin.com/in/sripushkar-julapally/" class="fab fa-linkedin"></a>
+            <a href="https://open.spotify.com/user/d5gp4yv18wunsf962m1gxcvhw?si=IgnvDP7ISVG4a46im27j8w" class="fab fa-spotify"></a>   
           </div>        
         </div>
 
@@ -34,7 +50,8 @@
         </p>          
       </div>
     </div>
-
-
+    
   </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="spotify.js"></script>
 </html>
