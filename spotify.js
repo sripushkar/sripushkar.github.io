@@ -10,7 +10,7 @@ window.onload = $.getJSON('https://ws.audioscrobbler.com/2.0/?method=user.getrec
     info = {
         artist: artist,
         album: album,
-        track: track,
+        track: track.substring(0, track.indexOf(" - Remastered")),
         image: image
     }
     console.log(info)
