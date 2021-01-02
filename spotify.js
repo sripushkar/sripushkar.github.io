@@ -7,8 +7,8 @@ window.onload = $.getJSON('https://ws.audioscrobbler.com/2.0/?method=user.getrec
     const album = data.recenttracks.track[0].album["#text"];
     let track = data.recenttracks.track[0].name;
     const image = data.recenttracks.track[0].image[3]["#text"]
-    if(track.includes("Remastered")){
-        track = track.substring(0, track.indexOf(" - Remastered"))
+    if(track.includes("Remaster")){
+        track = track.substring(0, track.indexOf(" - Remaster"))
     }
     info = {
         artist: artist,
