@@ -120,6 +120,19 @@ a:hover, a:active {
     transform: translatey(0px);
 }
 
+.glass-card {
+    max-width: 40%;
+    text-align: center;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 15px;
+    backdrop-filter: blur(20px);
+    padding: 2% 2%;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 0 1px 12px rgba(0,0,0,0.25);
+    overflow: hidden;
+    transform: translatey(0px);
+}
+
 .spotify-card {
     width: 60%;
     text-align: center;
